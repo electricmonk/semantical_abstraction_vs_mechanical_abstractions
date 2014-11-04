@@ -8,6 +8,7 @@ Issues to reference:
  * Missing the domain
  * Building programs from the requirement and not from how we see the requirement
  * We tend to immediately pigeonhole problems into familiar patterns - this is bad and causes bad abstractions (pattern-driven rather than domain-driven)
+ * Apache HttpClient 4 as an example
 
 ---------
 
