@@ -6,8 +6,16 @@ What it's not:
 Issues to reference:
  * Pattern abuse
  * Missing the domain
- * Building programs from the requirement and not from how see the requirement
+ * Building programs from the requirement and not from how we see the requirement
  * We tend to immediately pigeonhole problems into familiar patterns - this is bad and causes bad abstractions (pattern-driven rather than domain-driven)
+
+---------
+
+How would you build a new system? "I would use Scala. And Spring. Maybe Netty. Definitely throw in some Factories. And DAOs. Everyone needs them. "
+
+But what we're missing here is "what does it do? What is it for?".
+
+Is your codebase full of classes containing pattern names? Do you have CatController, CatService and CatDao? If so, you're most likely focusing on patterns, yielding mechanical abstractions, while completely missing a semantical abstraction that yearns to be carved out. 
 
 ----------
 http://taskinoor.wordpress.com/2011/09/21/the-abuse-of-design-patterns-in-writing-a-hello-world-program/
