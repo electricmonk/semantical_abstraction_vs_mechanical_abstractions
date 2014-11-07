@@ -14,10 +14,12 @@ Issues to reference:
 
 How would you build a new system? "I would use Scala. And Spring. Maybe Netty. Definitely throw in some Factories. And DAOs. Everyone needs them. "
 
-But what we're missing here is "what does it do? What is it for?".
+But what we're missing here is "what does it do? What is it for?"
 
 Is your codebase full of classes containing pattern names? Do you have CatController, CatService and CatDao? If so, you're most likely focusing on patterns, yielding mechanical abstractions, while completely missing a semantical abstraction that yearns to be carved out. 
+
 ----------
+
 Each layer of the system should expose its own language that abstracts over lower-level concerns. This language is the semantical abstraction. 
 
 ----------
