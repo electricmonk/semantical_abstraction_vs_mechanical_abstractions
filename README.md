@@ -28,3 +28,4 @@ http://c2.com/cgi/wiki?DesignPatternsConsideredHarmful
 http://programmers.stackexchange.com/questions/35755/overused-or-abused-programming-techniques
 http://programmers.stackexchange.com/questions/49379/when-should-i-use-and-not-use-design-patterns
 http://zedshaw.com/archive/indirection-is-not-abstraction/
+http://blog.thecodewhisperer.com/2013/11/23/beyond-mock-objects/
